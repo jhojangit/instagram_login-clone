@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 16;
+    font-size: 16px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@ body{
 }
 
 .cajaPadre{
-    width: 800px;
+    width: 700px;
     height: 550px;
     padding-top: 15px;
     margin: auto;
@@ -20,12 +20,11 @@ body{
 
 .box1{
     width: 350px;
-    height: 350px;
+    height: 400px;
     border: 1px solid gainsboro;
     padding: 20px;
     margin:auto;
-    -moz-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.75);;
+
 }
 
 .titulo{
@@ -40,23 +39,25 @@ body{
 
 .inputs input{
     width: 85%;
+    height: 35px;
     margin-top: 5px;
     padding: 6px;
     background-color: rgba(231, 230, 230, 0.307);
-    font-size: 12px;
+    font-size: 0.7rem;
     color: gray;
-    border-radius: 5px;
+    border-radius: 3px;
     border-color: rgb(223, 223, 223);
     border-style: solid;
 }
 
 .inputs button{
     width: 85%;
-    margin-top: 5px;
+    height: 35px;
+    margin-top: 10px;
     padding: 6px;
     background-color: #49b1f7;
     color: #f7f7f7;
-    font-size: 15px;
+    font-size: 0.8rem;
     font-weight: bold;
     border-radius: 9px;
     border-color: rgb(223, 223, 223);
@@ -66,7 +67,7 @@ body{
 
 
 .face .line{
-    padding-top: 15px;
+    padding-top: 25px;
     width: 310px;
     display:flex;
     justify-content: space-evenly;
@@ -89,7 +90,7 @@ body{
 
 
 .face > .fa{
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-flex;
     width: 65%;
     justify-content: space-between;
@@ -110,6 +111,7 @@ body{
     font-size: smaller;
     text-decoration: none;
     color: #134566;
+    font-size: 0.7.5rem;
 }
 
 
@@ -128,8 +130,6 @@ body{
     width: 350px;
     height: 60px;
     border: 1px solid gainsboro;
-    -moz-box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 11px -6px rgba(0,0,0,0.75);;
     font-size: 0.8rem;
 }
 
@@ -137,13 +137,20 @@ body{
     color:rgb(74, 124, 199);
     font-weight: bold;
     text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.registro p{
+    color:rgb(46, 46, 46);
+    text-decoration: none;
+    font-size: 0.8rem;
 }
 
 
 .descargas p{
     margin-top: 20px ;
     margin-bottom: 20px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .descargas .imagenes{
@@ -165,6 +172,8 @@ body{
     height:38px;
 }
 
+
+
 footer ul{
     font-style: oblique;
     font-size: 0.8rem;
@@ -176,12 +185,13 @@ footer .enlaces li {
     justify-content: space-between;
     padding-left: 7px;
     padding-right: 7px;
-    
+
 }
 
 footer .enlaces ul li a{
     color: rgb(107, 107, 107);
     text-decoration: none;
+    font-size: 0.73rem;
 }
 
 
@@ -204,6 +214,7 @@ footer .copy ul li a{
     text-decoration: none;
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 0.73rem;
 }
 
 
